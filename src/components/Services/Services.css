@@ -1,0 +1,39 @@
+.services-container{
+    padding: 30px;
+    background-color: rgb(199, 241, 194);
+    
+}
+
+.image{
+    height: 220px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.service-image{
+    border: 1px solid rgb(107, 75, 75);
+    border-radius: 20px;
+    padding: 20px;
+    background-color:rgb(204, 235, 233);
+    
+    
+}
+.each-service{
+    padding: 20px 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.service-header{
+    color: black;
+    padding-left: 330px;
+    font-size: 50px;
+}
+.service-name{
+    color: rgb(243, 101, 6);
+}
+.details-style{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+}

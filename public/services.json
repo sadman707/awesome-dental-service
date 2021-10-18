@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Tooth Extraction",
+        "price": "500$",
+        "description": "Tooth extraction is very important to maintain good tooth.",
+        "details": "Here is the details of tooth Extraction",
+        "img": "https://i.ibb.co/7WDsjDN/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cosmetic Dentistry",
+        "price": "2000$",
+        "description": "If you’re unhappy with the smile you see every time you look in the mirror.",
+        "details": "Here is the details of Cosmetic Dentistry",
+        "img": "https://i.ibb.co/2kWkP43/3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Urgent Dentistry",
+        "price": "1000$",
+        "description": "Dental emergencies come in many different forms as we don't know.",
+        "details": "Here is the details of Emergency Dentistry",
+        "img": "https://i.ibb.co/k2KZ7wX/6.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Advanced Technology",
+        "price": "3500$",
+        "description": "Dental technology is constantly evolving, and at Sage Dental Care.",
+        "details": "Here is the details of Advanced Technology",
+        "img": "https://i.ibb.co/BfZkDYq/2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dental Implants",
+        "price": "900$",
+        "description": "When one or more natural teeth are lost it is very bad.",
+        "details": "Here is the details of Dental Implants",
+        "img": "https://i.ibb.co/5RwxnJ8/4.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Teeth Whitening",
+        "price": "500$",
+        "description": "Do you have stained teeth? Coffee, age, and more. ",
+        "details": "Here is the details of Teeth Whitening",
+        "img": "https://i.ibb.co/Tc57NZr/5.jpg"
+    }
+]
