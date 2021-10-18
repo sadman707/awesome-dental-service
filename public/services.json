@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Tooth Extraction",
         "price": "500$",
-        "description": "Tooth extraction is very important to maintain good tooth.",
+        "description": "Tooth extraction is very important to maintain a very good tooth.",
         "details": "Here is the details of tooth Extraction",
         "img": "https://i.ibb.co/7WDsjDN/1.jpg"
     },
@@ -25,9 +25,9 @@
     },
     {
         "id": 4,
-        "name": "Advanced Technology",
+        "name": "Advance Tech",
         "price": "3500$",
-        "description": "Dental technology is constantly evolving, and at Sage Dental Care.",
+        "description": "Dental technology is constantly evolving.",
         "details": "Here is the details of Advanced Technology",
         "img": "https://i.ibb.co/BfZkDYq/2.jpg"
     },

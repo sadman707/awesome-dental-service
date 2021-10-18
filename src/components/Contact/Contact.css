@@ -1,5 +1,10 @@
 .row-style{
-    
-    padding: 120px;
-    background-color: rgb(195, 195, 235);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 50px;
+    background-color: rgb(245, 154, 80);
+}
+.contact-image{
+    height: 300px;
+    width: 500px;
 }

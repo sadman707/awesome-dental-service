@@ -51,12 +51,12 @@ const Services = () => {
                                         </div>
 
 
-                                        <div className="service-detail text-dark">
+                                        <div className="service-detail text-white">
                                             <h2 className="service-main">{service.name}</h2>
                                             <h3> <span className="service-name">Price: </span> {service.price}</h3>
-                                            <div className="details-style">
-                                                <h4> <span className="service-name">Description:</span> {service.description}</h4>
-                                                <h5> <span className="service-name">Details:</span>  {service.details}</h5>
+                                            <div>
+                                                <h4 className="services-name"> <span className="service-name">Description:</span> {service.description}</h4>
+                                                <h5 className="services-name"> <span className="service-name">Details:</span>  {service.details}</h5>
                                             </div>
 
                                             {showDetails()}

@@ -5,21 +5,33 @@ import './Login.css'
 
 const Login = () => {
     const { signInUsingGoogle } = useAuth();
-    let history = useHistory();
-    let location = useLocation();
-    let auth = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/';
+    console.log('came from', location.state?.from);
 
-    console.log("history==", history);
-    console.log("location==", location);
-    console.log("auth==", auth);
-    let { from } = location.state || { from: { pathname: "/" } };
-    console.log("from", from);
+    const handleGoogleLogIn = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_uri);
+            })
+    }
+
+    // let history = useHistory();
+    // let location = useLocation();
+    // let auth = useAuth();
+
+    // console.log("history==", history);
+    // console.log("location==", location);
+    // console.log("auth==", auth);
+    // let { from } = location.state || { from: { pathname: "/" } };
+    // console.log("from", from);
 
     return (
         <div className="login-form">
             <div>
                 <h2>Please Log in to proceed</h2>
-                <form onSubmit="">
+                <form >
                     <input type="email" name="" id="" placeholder="Enter your email" />
                     <br />
                     <input type="password" name="" id="" placeholder="Enter your password" />
@@ -31,7 +43,8 @@ const Login = () => {
                 <div>You can also do this sign in</div>
                 <button
                     className="signIn-button"
-                    onClick={signInUsingGoogle}
+                    // onClick={signInUsingGoogle}
+                    onClick={handleGoogleLogIn}
                 >Google Sign In</button>
             </div>
 

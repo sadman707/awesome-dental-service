@@ -11,8 +11,11 @@ const Header = () => {
                 <NavLink className="btn btn-outline-success" to="/home" >Home</NavLink>
                 <NavLink className="btn btn-outline-success" to="/services" >Services</NavLink>
                 <NavLink className="btn btn-outline-success" to="/about" >About Us</NavLink>
-                <NavLink className="btn btn-outline-success" to="/contact" >Contact Us</NavLink>
+                <NavLink className="btn btn-outline-success" to="/details" >Details</NavLink>
                 <NavLink className="btn btn-outline-success" to="/coming" >Coming Soon</NavLink>
+                <NavLink className="btn btn-outline-success" to="/contact" >Contact Us</NavLink>
+
+                <NavLink className="btn btn-outline-success" to="/doctors" >Our Doctors</NavLink>
                 {user.email && <span style={{ color: 'black' }}>Hello {user.displayName}</span>}
                 {user.email ?
                     <button className="btn btn-outline-danger" onClick={logOut}>Log Out</button>

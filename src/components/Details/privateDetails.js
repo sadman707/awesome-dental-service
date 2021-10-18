@@ -1,4 +1,4 @@
-import { Redirect, Route } from "react-router";
+/* import { Redirect, Route } from "react-router";
 import useAuth from "../../hooks/useAuth";
 
 const PrivateDetails = ({ children, ...rest }) => {
@@ -22,4 +22,4 @@ const PrivateDetails = ({ children, ...rest }) => {
         />
     );
 }
-export default PrivateDetails
+export default PrivateDetails */
