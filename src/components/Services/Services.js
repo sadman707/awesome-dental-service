@@ -11,11 +11,27 @@ const Services = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(true);
     const { user, logOut } = useAuth();
 
-    const showDetails = () => {
+    const showDetails = (service) => {
+        // name
+        // description
+        // details
+        // img 
+        // price
+
         if (user.email) {
             // go to details page
             return (
-                <NavLink className="btn btn-outline-danger" to="/details" >Show Details</NavLink>
+                <NavLink className="btn btn-outline-danger" to={{
+                    pathname: "/details",
+                    serviceProps: {
+                        name: service.name,
+                        description: service.description,
+                        details: service.details,
+                        img: service.img,
+                        price: service.price,
+
+                    },
+                }} >Show Details</NavLink>
             )
         } else {
             // go to login page
@@ -59,7 +75,7 @@ const Services = () => {
                                                 <h5 className="services-name"> <span className="service-name">Details:</span>  {service.details}</h5>
                                             </div>
 
-                                            {showDetails()}
+                                            {showDetails(service)}
 
 
                                         </div>

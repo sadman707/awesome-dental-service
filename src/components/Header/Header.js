@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <div>
             <nav className="nav-bar">
-                <NavLink className="btn btn-outline-success" to="/home" >Homes</NavLink>
+                <NavLink className="btn btn-outline-success" to="/home" >Home</NavLink>
                 <NavLink className="btn btn-outline-success" to="/services" >Services</NavLink>
                 <NavLink className="btn btn-outline-success" to="/about" >About Us</NavLink>
-                <NavLink className="btn btn-outline-success" to="/details" >Details</NavLink>
+                {/* <NavLink className="btn btn-outline-success" to="/details2" >Details</NavLink> */}
                 <NavLink className="btn btn-outline-success" to="/coming" >Coming Soon</NavLink>
                 <NavLink className="btn btn-outline-success" to="/contact" >Contact Us</NavLink>
 

@@ -27,7 +27,7 @@ const Register = () => {
     }
 
     const handleRegistration = e => {
-        console.log(email, password);
+        console.log('handle registration', email, password);
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;

@@ -18,6 +18,7 @@ import Details from './components/Details/Details';
 // import PrivateDetails from './components/Details/privateDetails';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import OurDoctors from './components/OurDoctors/OurDoctors';
+import Details2 from './components/Details/Details2';
 
 
 function App() {
@@ -48,6 +49,9 @@ function App() {
             <Details></Details>
           </PrivateRoute>
 
+          <PrivateRoute path="/details2">
+            <Details2></Details2>
+          </PrivateRoute>
 
           <Route path="/about">
             <About></About>
