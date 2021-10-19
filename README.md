@@ -4,11 +4,11 @@ Here you will get best dental services by our best doctors. Here is my site link
 
 ## This Website Contains
 
-## . Dental Services
+### . Dental Services
 ### . Contact 
-# . Coming Soon page
-# . Our Best Doctors
-# . Log In Authentication
+### . Coming Soon page
+### . Our Best Doctors
+### . Log In Authentication
 
 ### `npm start`
 
