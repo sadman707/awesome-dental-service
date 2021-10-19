@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 188px;
+    margin-bottom: 70px;
+    margin-top: 50px;
 }
 .signIn-button{
     background-color: rgb(236, 142, 34);
