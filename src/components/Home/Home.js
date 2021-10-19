@@ -11,8 +11,8 @@ const Home = () => {
             <div className="header-image">
                 <img src="https://i.ibb.co/gZgYTTM/cover.jpg" alt="" />
                 {<div className="header-text">
-                    <h1 className="h1-font-color">Welcome To My Dental Clinic</h1>
-                    <h2 className="h2-font-color">You will be fully satisfied by our service</h2>
+                    <h1 className="h1-font-color">Welcome My Awesome Dental Clinic</h1>
+                    <h2 className="h2-font-color">You will be fully satisfied</h2>
                     <h1 className="h1-font-color">100% Safety & satisfaction</h1>
                 </div>}
             </div>

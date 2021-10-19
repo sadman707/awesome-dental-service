@@ -15,7 +15,7 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import Details from './components/Details/Details';
-import PrivateDetails from './components/Details/privateDetails';
+// import PrivateDetails from './components/Details/privateDetails';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import OurDoctors from './components/OurDoctors/OurDoctors';
 

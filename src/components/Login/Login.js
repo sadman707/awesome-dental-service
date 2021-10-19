@@ -12,6 +12,7 @@ const Login = () => {
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/';
+
     console.log('came from', location.state?.from);
 
 
@@ -34,7 +35,7 @@ const Login = () => {
         e.preventDefault();
     }
 
-    const handleRegistration = e => {
+    const handleLogIn = e => {
         console.log(email, password);
         e.preventDefault();
     }
@@ -45,7 +46,7 @@ const Login = () => {
                 <h3 className="text-primary">Please Log in to proceed</h3>
 
 
-                <form onSubmit={handleRegistration}>
+                <form onSubmit={handleLogIn}>
                     <div className="row mb-3">
                         <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
                         <div className="col-sm-10">

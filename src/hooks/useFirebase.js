@@ -31,6 +31,9 @@ const useFirebase = () => {
                 setUser(user)
 
             }
+            else {
+                setUser({})
+            }
         });
     }, [])
 
